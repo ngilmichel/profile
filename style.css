@@ -46,6 +46,15 @@ a:hover {
   color: rgba(, 0.5);
 }
 
+a p {
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+}
+
+a p:hover {
+  text-decoration: underline;
+}
+
 .container {
   margin: auto;
   width: 700px;

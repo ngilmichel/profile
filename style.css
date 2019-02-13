@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(235, 235, 235);
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #583FA3;
+}
+
+#img-circle {
+  border-radius: 50%;
+  border: 1.5px solid #DDDBDB;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+}
+
+h3 {
+  color: rgb(150, 150, 150);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(150, 150, 150);
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+a {
+  color: #BE8CA7;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(, 0.5);
+}
+
+.container {
+  margin: auto;
+  width: 700px;
+}
+
+.card {
+  background-color: white;
+  padding:15px 15px 20px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.15);
+}
+
+.btn-lila {
+  color: white;
+  font-weight: 550;
+  background-color: #BE8CA7;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.btn-lila:hover {
+  color: white;
+  background-color: #BC6493;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.img-rectangle {
+  width: 180;
+  padding-top: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.img-back {
+  background-image: url("images/back.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 70%;
+  }
+  .img-rectangle {
+  width: 130;
+  }
+  #img-circle {
+  width: 150;
+  }
+/*  h1, {
+  font-size: 20px;
+  }
+  h2, {
+  font-size: 15px;
+  }
+  h3, {
+  font-size: 11px;
+  }*/
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 70%;
+  }
+  .img-rectangle {
+  width: 100;
+  }
+  #img-circle {
+  width: 130;
+  }
+/*  h1, {
+  font-size: 18px;
+  }
+  h2, {
+  font-size: 13px;
+  }
+  h3, {
+  font-size: 10px;
+  }*/
+}

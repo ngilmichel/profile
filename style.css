@@ -36,23 +36,13 @@ p {
 }
 
 a {
-  color: #BE8CA7;
+  color: rgb(150, 150, 150);
   text-decoration: none;
   font-size: 14px;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: rgba(, 0.5);
-}
-
-a p {
-  color: rgb(150, 150, 150);
   text-decoration: none;
-}
-
-a p:hover {
-  text-decoration: underline;
 }
 
 .container {
